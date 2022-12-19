@@ -31,3 +31,36 @@ body {
     text-align: center;
     margin:0 5px;
 }
+
+.container {
+    max-width: 1250px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: calc(100%/7);
+    position: relative;
+}
+
+.img-card {
+    height: 110px;
+    width: 170px;
+}
+
+.card-text {
+    background-color: rgba(93, 108, 122);
+    padding: 2px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 3px;
+
+}
