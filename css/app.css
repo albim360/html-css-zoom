@@ -18,7 +18,6 @@ body {
     justify-content: right;
     font-size: 13px;
     padding-bottom: 35px;
-    height: 100vw;
 }
 
 .icon-sup {
@@ -67,10 +66,37 @@ body {
     padding: 20px;
     background-color: rgb(34, 34, 34);
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
 }
 
 .video-mic {
     color: white;
     font-size: 26px;
+    display: inherit;
+}
+
+.text-footer {
+    font-size: 12px;
+}
+
+.main-button {
+    color: white;
+    font-size: 26px;
+    display: inherit;
+}
+
+.button {
+    margin-left: 11px;
+    text-align: center;
+}
+
+.fa-share-from-square {
+    color: rgb(16, 160, 16);
+}
+
+.end {
+    background-color: rgb(74, 74, 74);
+    color: red;
+    align-items: center;
+    padding: 15px;
 }
